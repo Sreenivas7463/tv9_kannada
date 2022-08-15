@@ -55,7 +55,7 @@ function Page({ data }) {
     const { params, req, res } = context
     const { slug} = params
     // Fetch data from external API
-    const response = await fetch(`https://10tv.in/wp-json/wp/v2/posts?_embed&slug=${slug}`)
+    const response = await fetch(`https://tv9kannada.com/wp-json/wp/v2/posts?_embed&slug=${slug}`)
     
     const data = await response.json()
     
